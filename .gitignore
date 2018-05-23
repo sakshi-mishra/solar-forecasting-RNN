@@ -1,0 +1,4 @@
+*.jpg
+*.zip
+.ipynb_checkpoints
+*Test.ipynb
