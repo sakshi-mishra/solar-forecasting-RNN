@@ -6,7 +6,7 @@ This repository contains code to reproduce the results published in the ["Multi-
 
 A conda environment file is provided for convenience. Assuming you have Anaconda python distribution available on your computer, you can create a new conda environment with the necessary packages using the following command:
 
-`conda env create -f conda_env.yaml -n "multi_time_horizon`
+`conda env create -f conda_env.yaml -n "multi_time_horizon"`
 
 ## Predictions with fixed time horizon 
 The Jupyter Notebooks in [fixed-time-horizon-prediction](fixed-time-horizon-prediction) explain the experiments on forecasting solar on fixed time interval basis as described in Section V.A of the [paper](https://arxiv.org/abs/1807.05459). 
@@ -46,3 +46,5 @@ The Jupyter Notebook [multi-time-horizon-prediction/Exp_2.1_multi-time-scale_All
 ### Training/Testing Data
 
 The training and testing data needs to be downloaded from the [NOAA FTP server](ftp://aftp.cmdl.noaa.gov/data/radiation/surfrad/) for the locations/sites. You can use GNU wget to automate the download process. The scripts assume that the data is in the *data* folder as per the structure outlined in the [data_dir_struct.txt](data_dir_struct.txt) file.
+
+If you face any issues running the code or reproducing the results, create an issue on this repo. Contributions are welcome too :)
