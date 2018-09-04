@@ -1,6 +1,6 @@
 # Multi-time Horizon Solar Forecasting using Recurrent Neural Networks
 
-This repository contains code to reproduce the results published in the ["Multi-time-horizon Solar Forecasting Using Recurrent Neural Network"](https://arxiv.org/abs/1807.05459) paper.
+This repository contains code to reproduce the results published in the ["Multi-time-horizon Solar Forecasting Using Recurrent Neural Network"](https://arxiv.org/abs/1807.05459) paper. In addition, a LSTM implementation for multi-time horizon solar forecasting is available at this repository: ["PyTorch implementation of LSTM Model for Multi-time-horizon Solar Forecasting"](https://github.com/sakshi-mishra/LSTM_Solar_Forecasting).
 
 ## Conda environment for running the code
 
