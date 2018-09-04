@@ -34,7 +34,6 @@ The Jupyter Notebooks in [fixed-time-horizon-prediction](fixed-time-horizon-pred
 
 ##### [fixed-time-horizon-prediction/Exp_1.2](fixed-time-horizon-prediction/Exp_1.2) folder contains the .py version of the Jupyter Notebooks listed above, along with additional .py files predicting 3-hour ahead and 4-ahead forecasts for all the seven locations.
 
-
 ## Predictions with multi-time horizon
 
 The python scripts in [multi-time-horizon-prediction](multi-time-horizon-prediction) explain the experiments on forecasting solar on multi-time-horizon basis as described in Section V.B of the [paper](https://arxiv.org/abs/1807.05459).
@@ -48,3 +47,15 @@ The Jupyter Notebook [multi-time-horizon-prediction/Exp_2.1_multi-time-scale_All
 The training and testing data needs to be downloaded from the [NOAA FTP server](ftp://aftp.cmdl.noaa.gov/data/radiation/surfrad/) for the locations/sites. You can use GNU wget to automate the download process. The scripts assume that the data is in the *data* folder as per the structure outlined in the [data_dir_struct.txt](data_dir_struct.txt) file.
 
 If you face any issues running the code or reproducing the results, create an issue on this repo. Contributions are welcome too :)
+
+## Citing
+If you find this work useful for your research, please cite the paper:
+
+```bibtex
+@misc{1807.05459,
+Author = {Sakshi Mishra and Praveen Palanisamy},
+Title = {Multi-time-horizon Solar Forecasting Using Recurrent Neural Network},
+Year = {2018},
+Eprint = {arXiv:1807.05459},
+}
+```
