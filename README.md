@@ -6,7 +6,7 @@ This repository contains code to reproduce the results published in the ["Multi-
 
 A conda environment file is provided for convenience. Assuming you have Anaconda python distribution available on your computer, you can create a new conda environment with the necessary packages using the following command:
 
-`conda env create -f conda_env.yaml -n "multi_time_horizon"`
+`conda env create -f multi-tscale-slim.yaml -n "multi_time_horizon"`
 
 ## Predictions with fixed time horizon 
 The Jupyter Notebooks in [fixed-time-horizon-prediction](fixed-time-horizon-prediction) explain the experiments on forecasting solar on fixed time interval basis as described in Section V.A of the [paper](https://arxiv.org/abs/1807.05459). 
