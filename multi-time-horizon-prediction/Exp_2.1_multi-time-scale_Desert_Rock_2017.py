@@ -770,12 +770,18 @@ test_iter = []
 test_batch_mse = list()
 
 
+# Set to True to enable plotting
+plot_predictions_actual = False
 
 for i in range(0,int(test_samples/batch_size -1)):
     features = Variable(X_test[i*batch_size:(i+1)*batch_size, :]).view(-1, seq_dim, feat_dim)
     Kt_test = Variable(y_test[i*batch_size:(i+1)*batch_size])
                 
     outputs = model(features)
+
+    if plot_predictions_actual:
+        plt.plot(Kt_test, 'r*')
+        plt.plot(outputs, 'g*')
                 
     test_batch_mse.append(np.mean([(Kt_test.data.numpy() - outputs.data.numpy().squeeze())**2],axis=1))
                 
